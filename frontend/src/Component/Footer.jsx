@@ -11,14 +11,13 @@ const Footer = () => {
                     </div>
                     <p className='text text-xs'>Connected with you all the way</p>
                 </div>
+                
                 <div className='w-1/5  h-full'>
                     <div className=''><h2 className='text text-2xl text-white mb-2 font-bold'>Connect with us</h2></div>
                     <div className=''><h2 className='text-white mb-1'>Facebook</h2></div>
                     <div className=''><h2 className='text-white mb-1' >Instagram</h2></div>
                     <div className=''><h2 className='text-white mb-1'>Linked In</h2></div>
                     <div className=''><h2 className='text-white mb-1'>Twitter</h2></div>
-
-
                 </div>
 
                 <div className='w-1/5  h-full'>

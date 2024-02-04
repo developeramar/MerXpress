@@ -1,51 +1,43 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import SignUp from './Component/SignUp.jsx';
-import Login from './Component/Login.jsx';
-import Welcome from './Component/Welcome.jsx';
-import Header from './Component/Header.js';
-import Navbar from './Component/Navbar.jsx';
-import Shopping_Cart from './Component/Shopping_Cart.js';
+import { Link, Route, Routes } from 'react-router-dom';
+import SignUp from './BuyerScreen/Pages/SignUp';
+import Login from './BuyerScreen/Pages/Login';
+import MarketPlace from './BuyerScreen/Pages/MarketPlace';
+import Order_SuccessFull from './BuyerScreen/Pages/Order_SuccessFull';
+import Shopping_Cart from './BuyerScreen/Pages/Shopping_Cart';
+import Payment_Page from './BuyerScreen/Pages/Payment_Page';
+import ProfileScreen from './BuyerScreen/Pages/ProfileScreen';
+import MainPage from './merxpress_vendor/pages/mainpage';
 
-import './App.css';
-import Payment_Page from './Component/Payment_Page.jsx';
+
+
+
 
 
 function App() {
   return (
     <>
+    <MainPage/>
+  
+{/* 
 
-      <Router>
-       
-       <Payment_Page/>
-      {/* <Shopping_Cart/> */}
-       {/* 
- <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
-        <Routes>
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/" element={<Navigate to="/login" />} />
-          <Route path="/" element={<Navigate to="/signup" />} />
-
-          <Route path="/" element={<Welcome />} />
-        </Routes>
-
-      </div>
-      */}
-      
-      </Router>
+     <div className=''>
+    <Routes >
+     
+     <Route  path='/signup' element={<SignUp/>}/>   
+    <Route path='/login' element={<Login/>} />
+    <Route path='/marketplace' element={<MarketPlace/>} />
+    <Route path='/order' element={<Order_SuccessFull/>} />
+    <Route path='/shoping' element={<Shopping_Cart/>} />
+    <Route path='/paymentpage' element= {<Payment_Page/>} />
 
 
+    
 
 
-
-
-
-
-
-
-
+    </Routes>
+     </div>
+     */}
     </>
   );
 }

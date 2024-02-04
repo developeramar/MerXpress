@@ -1,4 +1,4 @@
-// Navbar.js
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiSearch, FiChevronDown, FiShoppingCart } from 'react-icons/fi';
@@ -57,6 +57,31 @@ const Header = () => {
           <Link to="/marketplace" className="text-white">
             Marketplace
           </Link>
+
+{ /*------------------------------------ */}
+
+{ /* 
+<Link to="/signup" className="text-white">
+            SIGNUP
+          </Link>
+          <Link to="/login" className="text-white">
+            LogIN
+          </Link>
+          <Link to="/order" className="text-white">
+            ORDER SUCCESS
+          </Link>
+          <Link to="/paymentpage" className="text-white">
+            PAYMENT PAGE
+          </Link>
+
+          <Link to="/shoping" className="text-white">
+            SHOPPING CART PAGE
+          </Link>
+         */}
+
+{ /*------------------------------------ */}
+
+
           <Link to="/merxclips" className="text-white">
             Merx Clips
           </Link>

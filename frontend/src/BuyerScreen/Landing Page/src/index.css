@@ -1,0 +1,53 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flex-row{
+    @apply flex items-center justify-between;
+  };
+  .title{
+    @apply font-bold text-4xl;
+  }
+  .dropdown_link{
+    @apply bg-white text-black p-4 no-underline block;
+  }
+  .footer_P_style{
+    @apply font-text text-sm font-normal leading-10;
+  }
+  .footerSubTitle{
+    @apply mb-12 text-base;
+  }
+  .Eachoffer{
+    @apply flex-1 ;
+  }
+  .eachproduct{
+    @apply bg-white rounded-2xl pb-4 flex-25 mb-8;
+  }
+
+  .Category{
+    @apply font-semibold pl-4;
+  }
+  .CategoryStyle{
+    @apply py-4 border-l-30 shadow-[7px_7px_9px_3px_rgba(0,0,0,0.06)];
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
